@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   
+    
+    <h2>You may now make request to the following routes, for example:</h2>
+    <p>1.Route that takes an input string and an int :  /restone?string=Hi+this+is+Rajat&int=786</p>
+    <p>2. Route to show ejs loop running, enter the int value for the number of time you want the loop to run:  /runejsloop?int=9 </p>
+    <p>3. To make Query to the databse go to : /mysql?name=Dan&email=myprojectdh@gmail.com <br>This will create a new table called new_user with an entry based on what you send in params . Please see the file /routes/handler_three.js</p>
+    <p>3. To make Query to the databse go to : /mongodb?name=Dan&email=myprojectdh@gmail.com <br>This will create a new document called user with an entry based on what you send in params . Please see the file /routes/handler_four.js</p>
+  </body>
+</html>
